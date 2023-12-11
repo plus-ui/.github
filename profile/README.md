@@ -1,49 +1,48 @@
-<!-- markdownlint-disable MD033 MD041 -->
-
 <p align="center">
-  <a href="https://www.plusui.com">
-    <img width="300" src="https://www.plusui.com/assets/plusui.svg" alt="Plus UI Logo" />
+  <a href="https://plusui.com">
+    <img src="https://www.plusui.com/assets/logo-vector.svg" height="96">
+    <h3 align="center">Plus UI</h3>
   </a>
 </p>
 
-# **Welcome to Plus UI Library! 🚀**
+<h4 align="center">Design, Develop, Ship 🚀</h4>
 
-Elevate your development experience with Plus UI Library, a powerful toolkit offering a plethora of features seamlessly integrable into any framework.
+<p align="center">
+  <a href="https://docs.plusui.com"><strong>Documentation</strong></a> ·
+  <a href="https://github.com/plus-ui/core"><strong>GitHub</strong></a> ·
+  <a href="https://www.figma.com/@plusui"><strong>Figma</strong></a> ·
+  <a href="https://discord.gg/ezAES5c9"><strong>Discord</strong></a> ·
+  <a href="https://twitter.com/PlusUI_Official"><strong>Twitter</strong></a>
+</p>
+<br/>
+<p align="center">
+  Plus UI is enterprise-class, integrated design system and UI library to provide end-to-end user experience solution start from design, development to analytics.
+</p>
 
-[![npm](https://img.shields.io/npm/v/%40plusui%2Fcore?logo=javascript&label=%40plusui%2Fcore)](https://www.npmjs.com/package/@plusui/core) [![npm](https://img.shields.io/npm/v/%40plusui%2Freact?logo=react&label=%40plusui%2Freact)](https://www.npmjs.com/package/@plusui/react)
+- ✔ Powered by [Plus UI Design System](https://www.figma.com/community/file/1310670219738074447/plus-ui-design-system)
+- ✔ Centralized token system that bridging design system and ui library
+- ✔ Rich and functional components
+- ✔ Fully customizable and accessible
+- ✔ Light package size
+- ✔ Open-source
+- ✔ Works with CDNs
+- ✔ Includes a dark theme
+- ✔ First-class support
+- ✔ Built with [Lit](https://lit.dev/)
+- ✔ Integration with Tailwind CSS and Font Awesome
+- ✔ Created with Web Component Technology
+- ✔ Multi-framework Library works wherever HTML works
 
-Plus UI Library provides a versatile collection of components that can be effortlessly utilized in your projects, ensuring a smooth and delightful user interface.
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=flat-square&logo=javascript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-orange?style=flat-square&logo=html5&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-red?style=flat-square&logo=angular&logoColor=white)
+![React](https://img.shields.io/badge/React-blue?style=flat-square&logo=react&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue-green?style=flat-square&logo=vue.js&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-orange?style=flat-square&logo=svelte&logoColor=white)
 
-## Installation 📦
+## Installation
 
-### Usage CDN 🌐
-
-Include the Plus UI Library directly in your HTML file using a CDN. Follow these steps:
-
-#### Step 1: Add Script and Stylesheet Links
-
-Add the following code inside the `<head>` tag of your HTML file:
-
-```html
-<script type="module" src="https://cdn.jsdelivr.net/npm/@plusui/core/+esm"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@plusui/core/dist/style.css"/>
-```
-
-#### Step 2: Integrate Plus UI Components
-
-Now, you can use any Plus UI component in the body of your HTML file:
-
-```html
-<plus-button>Button</plus-button>
-```
-
-### Usage NPM 📦
-
-Install Plus UI Library using npm, yarn, or pnpm. Follow these steps:
-
-#### Step 1: Install the Package
-
-Choose one of the following commands based on your preferred package manager:
+Check out the [Documentation](https://docs.plusui.com) to get started with Plus UI.
 
 ```bash
 npm install @plusui/core
@@ -57,105 +56,33 @@ yarn add @plusui/core
 pnpm add @plusui/core
 ```
 
-#### Step 2: Import and Use Components
+## Packages
 
-In your JavaScript-based project, import Plus UI components like this:
+| Project | Package | Version |
+| ------- | ------- | ------- |
+| [**Core**](https://github.com/plus-ui/core/) | [`@plusui/core`](https://www.npmjs.com/package/@plusui/core) | [![npm](https://img.shields.io/npm/v/@plusui/core?style=flat-square)](https://www.npmjs.com/package/@plusui/core) |
+| [**React**](https://github.com/plus-ui/react/) | [`@plusui/react`](https://www.npmjs.com/package/@plusui/react) | [![npm](https://img.shields.io/npm/v/@plusui/react?style=flat-square)](https://www.npmjs.com/package/@plusui/react) |
 
-```js
-import '@plusui/core';
-```
+## Supporting Financially
 
-Now, you can use Plus UI components in your HTML:
+Your support allows us to invest more time and resources into our projects, which means that we can provide even more value to our users.
 
-```html
-<plus-button>Button</plus-button>
-```
+🚀 Support us on [Patreon](https://www.patreon.com/PlusUI), [Open Collective](https://opencollective.com/plus-ui), and [GitHub Sponsors](https://github.com/plus-ui)
 
-### Usage React ⚛️
 
-To integrate Plus UI Library into a React or TypeScript project, follow these steps:
+## Contributing
+Plus UI is an open-source project, its goal is to help to build better-experienced products for end users to make life easier for everyone. If you would like to contribute to this goal, we welcome contributions to Plus UI and there are many ways to do so!
+- **Spread the word:** share Plus UI with designers and developers you know.
+- **Backlinking**: evangelize Plus UI products by linking plusui.com on your website.
+- **Join Our Communities**: join our community in Github and Discord
+- **Support on Social Media:** share, like, and comment on Twitter, LinkedIn, and Youtube.
+- **Improving documentation**: If you notice something missing or have additional insights to share, you can submit a pull request to our documentation repository on GitHub.
+- **Contributing code:** We always welcome contributions to the code through pull requests on GitHub, as well as bug reports and feedback on the library's functionality and usability.
+- **Request a new feature**: We always welcome your new feature requests through our GitHub repository's issue tracker or here. 
 
-#### Step 1: Install the Packages
+## Licences
 
-Install both `@plusui/core` and `@plusui/react` packages using npm:
+This project is licensed under the terms of the [MIT license](https://github.com/plus-ui/core/blob/main/LICENSE).
 
-```bash
-npm install @plusui/core @plusui/react
-```
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]([https://opensource.org/licenses/MIT](https://github.com/plus-ui/core/blob/main/LICENSE)https://github.com/plus-ui/core/blob/main/LICENSE)
 
-#### Step 2: Import Stylesheet
-
-In your root React file (e.g., `index.js` or `index.tsx`), import the Plus UI stylesheet:
-
-```jsx
-import "@plusui/core/style.css";
-```
-
-#### Step 3: Import and Use Components
-
-Import the desired Plus UI component(s) in your React component file and use them as shown below:
-
-```jsx
-import React from 'react';
-import { PlusButton } from '@plusui/react';
-
-function App() {
-  return (
-    <PlusButton>Button</PlusButton>
-  );
-}
-
-export default App;
-```
-### Usage Angular ⚙️
-
-Integrate Plus UI Library into your Angular project with the following steps:
-
-#### Step 1: Install the Package
-
-Run the following command in the terminal to install the Plus UI package:
-
-```bash
-npm install @plusui/core
-```
-
-#### Step 2: Add Stylesheet to Angular Project
-
-Open the `angular.json` file in your Angular project and add the Plus UI style file to the "styles" section:
-
-```json
-"styles": [
-    "src/styles.css",
-    "node_modules/@plusui/core/dist/style.css"
-],
-```
-
-#### Step 3: Import Plus UI in AppModule
-
-Open the `app.module.ts` file within your Angular project. Perform the necessary import operations and add `CUSTOM_ELEMENTS_SCHEMA` in the `schemas` section:
-
-```typescript
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
-import '@plusui/core';
-// Other imports...
-
-@NgModule({
-  declarations: [ 
-    // Other declarations...
-  ],
-  imports: [
-    // Other imports...
-  ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA], // needed to support custom elements
-  // Other module metadata...
-})
-export class AppModule { }
-```
-
-#### Step 4: Use Plus UI Components in Angular Component
-
-Open an Angular component file within your project and add an example using the Plus UI component:
-
-```html
-<plus-button>Button</plus-button>
-```
