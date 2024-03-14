@@ -40,6 +40,8 @@
 ![Vue](https://img.shields.io/badge/Vue-green?style=flat-square&logo=vue.js&logoColor=white)
 ![Svelte](https://img.shields.io/badge/Svelte-orange?style=flat-square&logo=svelte&logoColor=white)
 
+[![](https://data.jsdelivr.com/v1/package/npm/@plusui/core/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@plusui/core)
+
 ## Installation
 
 Check out the [Documentation](https://docs.plusui.com) to get started with Plus UI.
