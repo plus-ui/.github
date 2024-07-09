@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://plusui.com">
-    <img src="https://www.plusui.com/assets/logo-vector.svg" height="96">
+    <img src="https://www.plusui.com/_astro/plus-ui-logo.byE1TWhg_Z1cq0tM.svg" height="96">
     <h3 align="center">Plus UI</h3>
   </a>
 </p>
